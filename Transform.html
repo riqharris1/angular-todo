@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+	<title>Transform</title>
+	<style type="text/css">
+	#div1{
+		width:200px;
+		height:100px;
+		color: ff8080;
+		background:linear-gradient();
+		background-color: red;
+		border-top-right-radius: 15%;
+		border-top-left-radius:15%;
+		background-color: rgba(255,0,0,0.5);
+		transform: translate(30px,30px,30px);
+
+	}
+	#div2{
+		width:200px;
+		height:100px;
+		background: radial-gradient(#5f2c82 45%, #3498db 65%);
+		border-top-right-radius: 15%;
+		border-top-left-radius:15%;
+		background-color: red;
+		transform: rotate(-45deg);
+		}
+	#div3{
+		width:200px;
+		height:100px;
+		background: radial-gradient();
+		background-color: red;
+		border-top-right-radius: 15%;
+		border-top-left-radius:15%;
+		box-shadow: 10px 10px 5px #888888;
+		transform: skew(45deg,30deg);
+
+	}
+	#div4{
+		width:200px;
+		height:100px;
+		background: linear-gradient(to right,#FF2A06 1%,#FFED21 50%,#4B1248 75%,#5F2C82 100%);
+		background-color: red;
+		box-shadow: 10px 10px 5px #888888;
+		border-top-right-radius:15%;
+		border-top-left-radius: 15%;
+		border:5px solid black;
+		transform: scale(1,1);
+	}
+
+	.box{
+		background-color: red;
+    	transform: perspective(600px) rotateY(45deg);
+	}
+	</style>
+
+</head>
+<body>
+<div id="div1" class="box">1</div>
+<div id="div2" class="box">2</div>
+<div id="div3" class="box">3</div>
+<div id="div4" class="box">4</div>
+
+</body>
+
+</html>
