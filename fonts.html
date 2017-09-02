@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>Fonts</title>
+		<link href='http://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
+		<link href='http://fonts.googleapis.com/css?family=Dosis' rel='stylesheet' type='text/css'>
+		<style type="text/css">
+		<link rel="stylesheet" type="text/css" href="reset.css">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		
+		/*@media screen and (max-width: 700px)*/
+		body
+		{
+			background-color: #F5D76E;
+		}
+		nav{
+			font-family: roboto;
+			/*background-color: #eee;*/
+			margin: 30px auto;
+			width: 100%;
+			height: 500px;
+			display: flex;
+			flex-direction: column;
+			align-items:stretch;
+			border-radius: 10px;
+			padding: 0;	
+			background-color: #F5D76E;
+		}
+				
+		a{
+			text-decoration: none;
+			color: #fff;
+			flex:1;
+			height: 30px;
+			font-family: Dosis;
+			padding:20px 20px 20px 20px;
+			text-align: center;
+			font-size: 2em;
+			border:1px solid white;
+			border-bottom: ; 
+		}
+		#logoNav{
+			font-size: 2em;
+			font-weight: bold;
+			
+			}
+
+
+		@media screen and (min-width: 700px){
+			nav{
+				font-family: roboto;
+			/*background-color: #eee;*/
+			flex-flow: row;
+			margin: 30px auto;
+			width: 100%;
+			height: 500px;
+			display: flex;
+			flex-flow: : row;
+			align-items:baseline;
+			border-radius: 10px;
+			padding: 0;	
+			/*Code goes here*/
+			
+			
+			/*background-color: #eee;*/
+
+			}
+			a{
+			/*Code goes here*/
+			text-decoration: none;
+			color: #fff;
+			flex:1;
+			height: 30px;
+			font-family: Dosis;
+			padding:20px 20px 20px 20px;
+			text-align: center;
+			font-size: 1.3em;
+			/*border:1px solid black;*/
+			border: none;
+			/*border-radius: 15%;*/
+			border-top-right-radius: 15%;
+			border-top-left-radius: 15%;
+			border-bottom: ;
+			}
+			#logoNav{
+			/*Code goes here*/
+			font-size: 2em;
+			font-weight: bold;
+			border-top-right-radius:   15%;
+			flex-direction :row;
+			text-align: left;
+			flex: 3;
+			}
+			#landing{
+				display: flex;
+				justify-content: center;
+				align-items: right;
+				margin-left: 20%;
+				flex-direction: row;
+				width: 80%;
+				margin: 100px auto;
+			}
+			#landing-message{
+				/*justify-content: left;*/
+				/*align-items: left;*/
+				text-align: left;
+
+			}
+			#landing-graphic{
+				/*justify-content: right;
+				align-items: right;*/
+			}
+		}
+.cards{
+        /*code here*/
+        color: blue;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+}
+.card{
+        /*code here*/
+        font-weight: bold;
+        flex: 2;
+        margin: 20px 10px;
+}
+.card h2{
+        /*code here*/
+        font-style: verdana;
+}
+.card img{
+        width:50%;
+        }
+.card p{
+        font-family: dosis;
+        font-size: 22px;
+}
+		</style>
+</head>
+<body>
+
+	<nav>
+		
+			<a id="logoNav">CHOCOBLOCK</a>
+			<a href="#">Home</a>
+			<a href="#">Projects</a>
+			<a href="#">About</a>
+			<a href="#">Contact</a>
+			<a href="#">Photos</a>
+		
+
+	</nav>
+<section id="landing"><div id="landing-message"><h2>Welcome</h2></div><div id="landing-graphic"> <img id="landing-image" src="files-l8/graphic1.png"></div></section>
+<section class="cards">
+        <div class="card">
+                <img src="files-l8/Challenge1/img/graphic2.png" alt="design pic">
+                <h2>Web Info Sessions</h2>
+                <p>If you have questions about your career in...</p>
+        </div> 
+</section>
+</body>
+</html>

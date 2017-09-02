@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Text Attributes</title>
+		<link href='http://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
+		<link href='http://fonts.googleapis.com/css?family=Dosis' rel='stylesheet' type='text/css'>
+		<link rel="stylesheet" type="text/css" href="reset.css">
+		<style type="text/css">
+		/*@media screen and (max-width: 700px)*/
+		/*--Nav--*/
+		body
+		{
+			background-color: #F5D76E;
+		}
+		nav{
+			font-family: roboto;
+			/*background-color: #eee;*/
+			margin: 30px auto;
+			width: 100%;
+			/*height: 500px;*/
+			display: flex;
+			flex-direction: column;
+			align-items:stretch;
+			border-radius: 10px;
+			padding: 0;	
+			/*background-color: #F5D76E;*/
+		}
+				
+		a{
+			text-decoration: none;
+			color: #fff;
+			flex:1;
+			height: 30px;
+			font-family: Dosis;
+			padding:20px 20px 20px 20px;
+			text-align: center;
+			font-size: 40px;
+			border-bottom:1px solid white;
+			 
+		}
+		#logoNav{
+			font-size: 40px;
+			font-weight: bold;
+			
+			}
+			/*Landing*/
+			#landing{
+				display: flex;
+				flex-direction: column;
+				justify-content: center;
+				align-items: center;
+			}
+			#landing-message{
+				
+				text-align: center;
+				font-family: Dosis;
+				font-size: 50px;
+				margin:50px 20px; 
+			}
+			#landing-graphic{
+				/*justify-content: right;
+				align-items: right;*/
+			}
+		
+		/*--cards--*/
+.cards{
+        /*code here*/
+        /*color: blue;*/
+        display: flex;
+        flex-direction: column;
+        /*flex-wrap: nowrap;*/
+        justify-content: space-around;
+}
+.card{
+        /*code here*/
+        flex: 1;
+        margin-top: 50px;
+        margin:50px 20px;
+        background-color: #eee;
+        padding: 20px;
+}
+.card h2{
+        /*code here*/
+        font-style: dosis;
+        font-size: 30px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+}
+.card img{
+        width:100%;
+        }
+.card p{
+        font-family: dosis;
+        font-size: 22px;
+}
+
+			/*--Desktop--*/
+		@media screen and (min-width: 700px){
+			nav{
+				font-family: roboto;
+			/*background-color: #eee;*/
+			width: 90%;
+			flex-flow: row;
+			align-items:baseline;
+			/*margin: 30px auto;*/
+			/*height: 500px;*/
+			/*display: flex;*/
+			/*border-radius: 10px;*/
+			/*padding: 0;*/	
+			/*Code goes here*/
+			/*flex-wrap: wrap;*/
+			/*background-color: #eee;*/
+			}
+			a{
+			/*Code goes here*/
+			/*text-decoration: none;*/
+			/*color: #fff;*/
+			/*flex:1;*/
+			/*height: 30px;*/
+			/*font-family: Dosis;*/
+			/*padding:20px 20px 20px 20px;*/
+			/*text-align: center;*/
+			font-size: 25px;
+			/*border:1px solid black;*/
+			border: none;
+			/*border-radius: 15%;*/
+			/*border-top-right-radius: 15%;*/
+			/*border-top-left-radius: 15%;*/
+			/*border-bottom: ;*/
+			}
+			#logoNav{
+			/*Code goes here*/
+			/*font-size: 2em;*/
+			/*font-weight: bold;*/
+			/*border-top-right-radius: 15%;*/
+			/*flex-direction :row;*/
+			text-align: left;
+			flex: 6;
+			}
+			#landing{
+				/*display: flex;*/
+				/*justify-content: center;*/
+				/*align-items: right;*/
+				/*margin-left: 20%;*/
+				flex-direction: row;
+				width: 80%;
+				margin: 100px auto;
+			}
+			
+.cards{
+        /*code here*/
+        /*color: blue;*/
+        /*display: flex;*/
+        flex-direction: row;
+        flex-wrap: nowrap;
+        /*justify-content: space-around;*/
+	}
+
+}
+		</style>
+</head>
+<body>
+
+	<nav>
+		
+			<a id="logoNav">CHOCOBLOCK</a>
+			<a href="#">Home</a>
+			<a href="#">Projects</a>
+			<a href="#">About</a>
+			<a href="#">Contact</a>
+			<a href="#">Photos</a>
+		
+
+	</nav>
+<div id="landing">
+	<div id="landing-message"><h2>Welcome</h2>
+	</div>
+	<div id="landing-graphic">
+	<img id="landing-image" src="files-l8/graphic1.png">
+	</div>
+	</div>
+<section class="cards">
+        <div class="card">
+                <img src="files-l8/Challenge1/img/graphic2.png" alt="design pic">
+                <h2>Web Info Sessions</h2>
+                <p>If you have questions about your career in...</p>
+        </div> 
+        <div class="card">
+                <img src="files-l8/Challenge1/img/graphic2.png" alt="design pic">
+                <h2>Web Info Sessions</h2>
+                <p>If you have questions about your career in...</p>
+        </div> 
+        <div class="card">
+                <img src="files-l8/Challenge1/img/graphic2.png" alt="design pic">
+                <h2>Web Info Sessions</h2>
+                <p>If you have questions about your career in...</p>
+        </div> 
+</section>
+</div>
+</body>
+</html>
